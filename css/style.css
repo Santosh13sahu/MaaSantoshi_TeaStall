@@ -122,12 +122,10 @@ section{
 .home .content h3{
     font-size: 2.5rem;
     margin-bottom: 1rem;
-    text-transform: uppercase;
     color:var(--main-color);
 }
 .home .content h2{
     font-size: 4rem;
-    text-transform: uppercase;
     color:var(--text-color);
 }
 .home .content p{
@@ -216,7 +214,7 @@ background: var(--black);
 }
 
 .menu .box-container .box:hover > *{
-    color:var(--black);
+    color:var(--text-color);
 }
 .shopimg .box-container{
     display: grid;
@@ -454,5 +452,5 @@ background: var(--black);
     html{
         font-size: 50%;
     }
-
+   
 }
